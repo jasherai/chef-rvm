@@ -23,6 +23,7 @@ actions :run
 
 attribute :name,        :kind_of => String, :name_attribute => true
 attribute :ruby_string, :kind_of => String, :default => "default"
+attribute :patch,       :kind_of => String
 attribute :code,        :kind_of => String
 attribute :creates,     :kind_of => String
 attribute :cwd,         :kind_of => String
